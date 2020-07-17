@@ -1,0 +1,49 @@
+table {
+    border: 5px solid blue;
+    background-color: palegoldenrod;
+}
+
+tr,
+td {
+    border: 1px solid blue;
+}
+
+body {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#terms {
+    align-items: center;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+#button {
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="responsive"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    [class*="responsive"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    [class*="responsive"] {
+        width: 100%;
+    }
+}
+
+input:focus,
+input:active {
+    background-color: rgb(124, 226, 199);
+}
