@@ -30,7 +30,7 @@ function validate() {
 
 
     //Validation code
-    if (name.length <= 5 || (!name.match(/[A-Za-z]+$/)) || name == "") {
+    if (name.length <= 5 || (!name.match(/[A-Za-z0-9]+$/)) || name == "") {
         usernamelabel.style.color = "red";
         alert("Please enter valid username(minimum 6 characters and no special character)");
         return false;

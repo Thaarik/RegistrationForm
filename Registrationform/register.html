@@ -16,18 +16,22 @@
         <center>
             <form name="myform" id="form" onsubmit="return validate()" method="post" action="result.html">
                 <table>
+                    <!-- username -->
                     <tr>
                         <td><label for="name" id="usernamelabel">Enter User Name</label></td>
                         <td><input type="text" name="name" id="username" onfocus="myFunction(this)"></td>
                     </tr>
+                    <!-- password -->
                     <tr>
                         <td><label for="password" id="passwordlabel">Enter your password</label></td>
                         <td><input type="password" name="password" id="password"></td>
                     </tr>
+                    <!-- confirm password -->
                     <tr>
                         <td><label for="confirm_password" id="cpasswordlabel">Confirm Password</label></td>
                         <td><input type="password" name="confirm_password" id="cpassword"></td>
                     </tr>
+                    <!-- gender -->
                     <tr>
                         <td><label for="gender" id="genderlabel">Select Sex</label></td>
                         <td><input type="radio" id="male" name="gender" value="male">
@@ -35,6 +39,7 @@
                             <input type="radio" id="female" name="gender" value="female">
                             <label for="female">Female</label></td>
                     </tr>
+                    <!-- Qualification -->
                     <tr>
                         <td><label for="qualification" id="qualificationlabel">Select your Qualification</label></td>
                         <td><select id="qualification">
@@ -45,10 +50,12 @@
                 <option value="Doctorate">Doctorate</option>
             </select></td>
                     </tr>
+                    <!-- address -->
                     <tr>
                         <td><label for="address" id="addresslabel">Enter your Address</label></td>
                         <td><textarea id="address" rows="4" cols="20"></textarea></td>
                     </tr>
+                    <!-- country -->
                     <tr>
                         <td><label for="country" id="countrylabel">Select your country</label></td>
                         <td><select id="country">
@@ -64,6 +71,7 @@
                 <option value="Nepal">Nepal</option>
             </select></td>
                     </tr>
+                    <!-- Area of interest -->
                     <tr>
                         <td><label for="interest" id="interestlabel">Select your Area of interest</label></td>
                         <td><input type="checkbox" value="sports" id="sports" name="interest" onClick="check()">
@@ -75,6 +83,7 @@
                             <input type="checkbox" value="nointerest" id="nointerest" onClick="uncheck()">
                             <label for="nointerest">No Interest</label></td>
                     </tr>
+                    <!-- Terms and conditions -->
                     <tr id="terms">
                         <td colspan="2">
                             <center><label for="condition">Accept terms and conditions:</label>
@@ -84,6 +93,7 @@
                                 <label for="reject">Reject</label></center>
                         </td>
                     </tr>
+                    <!-- Reset and register -->
                     <tr id="button">
                         <td>
                             <center><input type="reset"></center>
